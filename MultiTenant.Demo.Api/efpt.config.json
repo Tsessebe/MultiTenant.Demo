@@ -1,0 +1,49 @@
+﻿{
+   "CodeGenerationMode": 2,
+   "ContextClassName": "MultiTenantMasterContext",
+   "ContextNamespace": null,
+   "DefaultDacpacSchema": null,
+   "FilterSchemas": false,
+   "IncludeConnectionString": false,
+   "ModelNamespace": null,
+   "OutputContextPath": "",
+   "OutputPath": "MasterContext",
+   "PreserveCasingWithRegex": true,
+   "ProjectRootNamespace": "MultiTenant.Demo.Api",
+   "Schemas": null,
+   "SelectedHandlebarsLanguage": 0,
+   "SelectedToBeGenerated": 0,
+   "Tables": [
+      {
+         "Name": "[dbo].[SystemUser]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Tenant]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[UserTenant]",
+         "ObjectType": 0
+      }
+   ],
+   "UiHint": "MSI.MultiTenantMaster",
+   "UseBoolPropertiesWithoutDefaultSql": false,
+   "UseDatabaseNames": false,
+   "UseDbContextSplitting": false,
+   "UseFluentApiOnly": true,
+   "UseHandleBars": true,
+   "UseHierarchyId": false,
+   "UseInflector": true,
+   "UseLegacyPluralizer": false,
+   "UseManyToManyEntity": false,
+   "UseNoConstructor": false,
+   "UseNoDefaultConstructor": false,
+   "UseNoNavigations": false,
+   "UseNoObjectFilter": false,
+   "UseNodaTime": false,
+   "UseNullableReferences": false,
+   "UseSchemaFolders": false,
+   "UseSpatial": false,
+   "UseT4": false
+}
